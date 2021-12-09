@@ -1,0 +1,31 @@
+.footer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    border-top: 1px solid rgb(2, 76, 126);
+    align-items: center;
+    gap: 100px;
+    color: rgb(2, 76, 126);
+}
+
+.social-media{
+    display: flex;
+    gap:15px;
+}
+
+@media only screen and (max-width: 567px){
+    .footer{
+        font-size: 11px;
+        gap: 20px;
+    }
+    .social-media{
+        gap:8px;
+    }
+}
+@media only screen and (max-width: 285px){
+    .footer{
+        font-size: 10px;
+        gap: 10px;
+    }
+}
