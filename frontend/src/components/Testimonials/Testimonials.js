@@ -24,11 +24,12 @@ function Testimonials() {
         },
     ]
     const slideFromLeft = {
-        distance: '80px',
+        
+        distance: '150%',
         origin: 'left',
-        opacity: '0',
         duration: 2000,
-        reset:true,
+        opacity: '0',
+        opacity: null
     };
 
     useEffect(()=>{
